@@ -46,6 +46,7 @@ Default:1
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Rubik", sans-serif;
@@ -53,6 +54,7 @@ body {
   font-weight: 400;
   color: #555;
   overflow-x: hidden;
+
   /* padding-top: 2rem; */
 }
 

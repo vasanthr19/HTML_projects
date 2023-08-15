@@ -100,6 +100,7 @@ MOBILE NAVIGATION
 *****************************************/
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
   .nav-open .main-nav {
     opacity: 1;
@@ -208,10 +209,10 @@ MOBILE NAVIGATION
   .logos img {
     height: 1.2rem;
   }
-  .step-img-box: nth-child(2) {
+  .step-img-box:nth-child(2) {
     grid-row: 1;
   }
-  .step-img-box: nth-child(6) {
+  .step-img-box:nth-child(6) {
     grid-row: 5;
   }
   .step-img-box {
