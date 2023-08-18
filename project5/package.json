@@ -1,0 +1,12 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "create": "tailwindcss -i ./input.css -o css/main.css",
+    "monitor": "tailwindcss -i ./input.css -o css/main.css  --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
