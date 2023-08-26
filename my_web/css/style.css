@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Berkshire+Swash&family=Noto+Serif&display=swap");
+
+.gradient-background {
+  background: linear-gradient(300deg, #00514b, #39b589, #78d65b);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.gradient-background1 {
+  background: linear-gradient(300deg, #78d65b, #39b589, #00514b);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* .home,
+.about,
+.portfolio,
+.Contact {
+  height: 100vh;
+}
+.Contact {
+  height: 75vh;
+} */
+
+.color1 {
+  color: #555;
+}
+
+.hdg-1,
+.hdg-2 {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 450%;
+  letter-spacing: 0.3rem;
+}
+.shdg-1 {
+  font-family: "Noto Serif", serif;
+}
+.hdg-2 {
+  font-size: 4.8rem;
+  color: #00514b;
+}
+.shdg-2 {
+  color: #00514b;
+}
