@@ -6,9 +6,11 @@ for (var i = 0; i < m.length; i++) {
 }
 function handleClick() {
   var keyword = this.innerHTML;
+  addAnimate(keyword);
   playSound(keyword);
 }
 document.addEventListener("keydown", function (event) {
+  addAnimate(keyword);
   playSound(event["key"]);
 });
 function playSound(keyword) {
@@ -48,4 +50,12 @@ function playSound(keyword) {
       audio.play();
       break;
   }
+}
+function addAnimate(key) {
+  var but = document.querySelector("." + key);
+
+  but.classList.add("pressed");
+  setTimeout(() => {
+    but.classList.remove("pressed");
+  }, 100);
 }
