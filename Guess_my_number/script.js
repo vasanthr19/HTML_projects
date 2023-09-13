@@ -39,7 +39,7 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.number').textContent = '?';
   document.querySelector('body').style.backgroundColor = '#222';
   num = Math.ceil(Math.random() * 20);
-  document.querySelector('.number').textContent = num;
+  // document.querySelector('.number').textContent = num;
   document.querySelector('.guess').value = '';
   dispMsg('Start guessing...');
 });
